@@ -4,9 +4,7 @@
 1. Victor
 1. Cristopher
 1. Alejandro
-
 ## Partes de la página 
-
 ### Nav @sion127: Victor Villafranco
 
 1. Logo
@@ -15,10 +13,8 @@
 1. Soy estudiante
 1. Contactanos (Botón)
 1. Carrito de Compras (Botón)
-
 ### Body
-
-#### Hero
+#### Hero @sion127: Victor Villafranco
 
 1. "El arte de tocar el piano"
 1. H1: "Instituto Pazioli"
@@ -30,8 +26,7 @@
 1. 1. 1. 1. Facebook
 1. 1.  1. 1. LinkedIN
 1. 1. 1. 1. Twitter
-
-#### Product Placement
+#### Product Placement @SueEnciso: Sue Enciso
 
 1. H2: "Conoce nuestro nuevo modelo en clase"
 1. 1. Imagen Background: Piano_Tocando_1.png
@@ -41,8 +36,7 @@
 1. 1. Lorem (Descripción del Producto)
 1. 1. 1. Lista desordenada |Nuevo|Acus...|M. Cedro|  
 1. Botón: "Agregar a la lista"
-
-#### Carusel de Productos
+#### Carusel de Productos @alejandromartinezcs: Alejandro Martínez
 
 1. H2: "¿Qué tipo de piano estás buscando?
 1. DIV*3: "Tarjetas del producto"
@@ -53,7 +47,6 @@
 1. 1. 1. Precio: "Desde: $ XXX.k mn"
 1. 1. 1. Agregar a carrito: Botón
 1. Botón: "Ver más"
- 
 #### Contacto - Formulario
 
 1. H2: "Contactanos"
@@ -65,13 +58,11 @@
 1. 1. 1. Email: Label email
 1. 1. 1. Cuentanos más: Label Text
 1. 1. 1. Input Submit "Enviar" 
-
-#### Partners
+#### Partners: @CrisClient: Cristopher 
 
 1. H2: "Conoce nuestros partners"
 1. 1. Listado de Botones:
 1. 1. 1. Logo (Imagen) y Nombre de la Empresa x 7
-
 ### Footer
 
 1. Logo con Fondo
