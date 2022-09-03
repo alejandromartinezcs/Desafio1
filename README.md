@@ -7,7 +7,7 @@
 
 ## Partes de la página 
 
-### Nav @sion127
+### Nav @sion127: Victor Villafranco
 
 1. Logo
 1. Home
