@@ -1,1 +1,193 @@
-@import vars.scss;
+@import "vars.scss";
+
+
+.div__secundario{ 
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.820101) 14.06%, rgba(0, 0, 0, 0.75) 37.19%, rgba(0, 0, 0, 0.75) 55.32%, rgba(255, 255, 255, 0.6454) 88.52%, #FFFFFF 97.7%);
+    width: 960px;
+    height: 670px;
+    top: 926px; 
+    .video__fondo_deg{
+        position: absolute;
+        z-index: -1;
+    }
+}
+
+.div__titulo{
+position: absolute;
+width: 382px;
+height: 62px;
+left: 245px;
+top: 105px;
+align-items: center;
+text-align: center;
+letter-spacing: 0.05em;
+
+.h2__tittle--black{
+font-family: 'Abril Fatface';
+font-style:normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 43px;
+display: flex;
+
+color: black;
+}
+}
+
+
+.h3__nuevo-ebody--white{
+position: absolute;
+width: 218px;
+height: 32px;
+left: 32px;
+top: 300px;
+
+font-family: 'Abril Fatface';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: white;
+}
+
+.h5__valoracion--blanco{
+position: absolute;
+width: 71px;
+height: 14px;
+left: 32px;
+top: 341px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 200;
+font-size: 12px;
+line-height: 14px;
+
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+
+color: white;
+}
+
+.section__estrella{
+position: absolute;
+width: 16px;
+height: 16px;
+left: 100px;
+top: 367px;
+display: flex;
+}
+
+.h3__desde--blanco{
+position: absolute;
+width: 224px;
+height: 32px;
+left: 32px;
+top: 372px;
+
+font-family: 'Abril Fatface';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+
+color: white;
+}
+
+.p__lorem--blanco{
+position: absolute;
+width: 360px;
+height: 131px;
+left: 32px;
+top: 425px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 200;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.05em;
+
+color: white;
+}
+
+.ul__lista-caracteristicas--blanco{
+    li{
+        margin: 10px;
+    }
+position: absolute;
+width: 40px;
+height: 14px;
+left: -17px;
+top: 538px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+list-style: none;
+
+color: white;
+}
+
+.button__Add{
+position: absolute;
+width: 228px;
+height: 32px;
+left: 32px;
+top: 579px;
+
+background: black;
+border-radius: 8px;
+border: none;
+
+color: white;
+}
+
+.img__fig--opaco{
+position: absolute;
+left: 50%;
+right: -43.21%;
+top: 40%;
+bottom: 64.09%;
+}
+
+.img__fig--trans{
+position: absolute;
+left: 60%;
+right: 7.52%;
+top: 47%;
+bottom: 66.39%;
+}
+
+.img__petalos--blancos{
+position: absolute;
+width: 362.65px;
+height: 180.21px;
+left: 486px;
+top: 256px;
+}
+
+.img__piano--caoba{
+position: absolute;
+width: 369.15px;
+height: 308.53px;
+left: 441.62px;
+top: 263px;
+}
+
+
