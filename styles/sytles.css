@@ -1,15 +1,16 @@
-.div__secundario {
+.div__main-container {
   background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.820101) 14.06%, rgba(0, 0, 0, 0.75) 37.19%, rgba(0, 0, 0, 0.75) 55.32%, rgba(255, 255, 255, 0.6454) 88.52%, #FFFFFF 97.7%);
   width: 960px;
   height: 761px;
   top: 926px;
+  display: flex;
 }
-.div__secundario .video__fondo_deg {
+.div__main-container .video__background--deg {
   position: absolute;
   z-index: -1;
 }
 
-.div__titulo {
+.div__contairer-tittle {
   position: absolute;
   width: 460px;
   height: 72px;
@@ -19,7 +20,7 @@
   text-align: center;
   letter-spacing: 0.05em;
 }
-.div__titulo .h2__tittle--black {
+.div__contairer-tittle .h2__tittle--black {
   font-family: "Abril Fatface";
   font-style: normal;
   font-weight: 800;
@@ -33,14 +34,14 @@
   width: 896px;
   height: 463px;
 }
-.div__container--items .div__text {
+.div__container--items .div__container-text--white {
   width: 360px;
   height: 700px;
   position: absolute;
   padding: 20px;
   margin: 20px;
 }
-.div__container--items .div__text .h3__nuevo-ebody--white {
+.div__container--items .div__container-text--white .h3__text--ebony {
   position: absolute;
   width: 218px;
   height: 32px;
@@ -57,7 +58,7 @@
   letter-spacing: 0.05em;
   color: white;
 }
-.div__container--items .div__text .h5__valoracion--blanco {
+.div__container--items .div__container-text--white .h5__text--val {
   position: absolute;
   width: 71px;
   height: 14px;
@@ -73,7 +74,7 @@
   letter-spacing: 0.05em;
   color: white;
 }
-.div__container--items .div__text .section__estrella {
+.div__container--items .div__container-text--white .section__items--stars {
   position: absolute;
   width: 16px;
   height: 16px;
@@ -81,10 +82,10 @@
   top: 367px;
   display: flex;
 }
-.div__container--items .div__text .section__estrella .img__star {
+.div__container--items .div__container-text--white .section__items--stars .img__star {
   margin: 0 4px;
 }
-.div__container--items .div__text .h3__desde--blanco {
+.div__container--items .div__container-text--white .h3__text--price {
   position: absolute;
   width: 224px;
   height: 32px;
@@ -100,7 +101,7 @@
   letter-spacing: 0.05em;
   color: white;
 }
-.div__container--items .div__text .p__lorem--blanco {
+.div__container--items .div__container-text--white .p__lorem--white {
   position: absolute;
   width: 360px;
   height: 131px;
@@ -114,7 +115,7 @@
   letter-spacing: 0.05em;
   color: white;
 }
-.div__container--items .div__text .ul__lista-caracteristicas--blanco {
+.div__container--items .div__container-text--white .ul__feature-list--white {
   padding: 10px;
   position: absolute;
   width: 305px;
@@ -130,10 +131,10 @@
   align-items: center;
   color: white;
 }
-.div__container--items .div__text .ul__lista-caracteristicas--blanco li {
+.div__container--items .div__container-text--white .ul__feature-list--white .li__menu {
   margin: 10px;
 }
-.div__container--items .div__text .button__Add {
+.div__container--items .div__container-text--white .button__add--black {
   position: absolute;
   width: 228px;
   height: 32px;
@@ -144,31 +145,46 @@
   border: none;
   color: white;
 }
+.div__container--items .div__container--imgs {
+  width: 360px;
+  height: 700px;
+  position: absolute;
+  left: 100px;
+  display: flex;
+  align-items: center;
+}
 .div__container--items .div__container--imgs .img__fig--opaco {
   position: absolute;
-  left: 50%;
+  left: 400px;
   right: -43.21%;
   top: 40%;
   bottom: 64.09%;
 }
 .div__container--items .div__container--imgs .img__fig--trans {
   position: absolute;
-  left: 60%;
+  left: 420px;
   right: 7.52%;
   top: 47%;
   bottom: 66.39%;
 }
-.div__container--items .div__container--imgs .img__petalos--blancos {
+.div__container--items .div__container--imgs .img__horseshoe--white {
   position: absolute;
   width: 362.65px;
   height: 180.21px;
-  left: 486px;
-  top: 256px;
+  left: 420px;
+  top: 240px;
 }
 .div__container--items .div__container--imgs .img__piano--caoba {
   position: absolute;
   width: 369.15px;
   height: 308.53px;
-  left: 441.62px;
+  left: 370px;
   top: 263px;
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .div__container--items {
+    display: flex;
+  }
 }/*# sourceMappingURL=sytles.css.map */
