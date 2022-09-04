@@ -34,6 +34,17 @@ color: black;
 }
 }
 
+.div__container--items{
+    width: 930px;
+    height: 670px;
+    padding: 30px 30px 30px 30px;
+
+.div__text{
+width: 360px;
+height: 700px;
+position: absolute;
+padding: 20px;
+margin: 20px;
 
 .h3__nuevo-ebody--white{
 position: absolute;
@@ -121,14 +132,13 @@ color: white;
 }
 
 .ul__lista-caracteristicas--blanco{
-    li{
-        margin: 10px;
-    }
+li{margin: 10px;}
+padding: 10px;
 position: absolute;
-width: 40px;
-height: 14px;
-left: -17px;
-top: 538px;
+width: 305px;
+height: 20px;
+left: 40px;
+top: 520px;
 
 font-family: 'Raleway';
 font-style: normal;
@@ -138,10 +148,10 @@ line-height: 14px;
 
 display: flex;
 align-items: center;
-letter-spacing: 0.05em;
-list-style: none;
+// list-style: none;
 
 color: white;
+
 }
 
 .button__Add{
@@ -157,7 +167,8 @@ border: none;
 
 color: white;
 }
-
+}
+.div__container--imgs{
 .img__fig--opaco{
 position: absolute;
 left: 50%;
@@ -189,5 +200,6 @@ height: 308.53px;
 left: 441.62px;
 top: 263px;
 }
-
+}
+}
 

@@ -29,7 +29,19 @@
   color: black;
 }
 
-.h3__nuevo-ebody--white {
+.div__container--items {
+  width: 930px;
+  height: 670px;
+  padding: 30px 30px 30px 30px;
+}
+.div__container--items .div__text {
+  width: 360px;
+  height: 700px;
+  position: absolute;
+  padding: 20px;
+  margin: 20px;
+}
+.div__container--items .div__text .h3__nuevo-ebody--white {
   position: absolute;
   width: 218px;
   height: 32px;
@@ -46,8 +58,7 @@
   letter-spacing: 0.05em;
   color: white;
 }
-
-.h5__valoracion--blanco {
+.div__container--items .div__text .h5__valoracion--blanco {
   position: absolute;
   width: 71px;
   height: 14px;
@@ -63,8 +74,7 @@
   letter-spacing: 0.05em;
   color: white;
 }
-
-.section__estrella {
+.div__container--items .div__text .section__estrella {
   position: absolute;
   width: 16px;
   height: 16px;
@@ -72,8 +82,7 @@
   top: 367px;
   display: flex;
 }
-
-.h3__desde--blanco {
+.div__container--items .div__text .h3__desde--blanco {
   position: absolute;
   width: 224px;
   height: 32px;
@@ -89,8 +98,7 @@
   letter-spacing: 0.05em;
   color: white;
 }
-
-.p__lorem--blanco {
+.div__container--items .div__text .p__lorem--blanco {
   position: absolute;
   width: 360px;
   height: 131px;
@@ -104,13 +112,13 @@
   letter-spacing: 0.05em;
   color: white;
 }
-
-.ul__lista-caracteristicas--blanco {
+.div__container--items .div__text .ul__lista-caracteristicas--blanco {
+  padding: 10px;
   position: absolute;
-  width: 40px;
-  height: 14px;
-  left: -17px;
-  top: 538px;
+  width: 305px;
+  height: 20px;
+  left: 40px;
+  top: 520px;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -118,15 +126,12 @@
   line-height: 14px;
   display: flex;
   align-items: center;
-  letter-spacing: 0.05em;
-  list-style: none;
   color: white;
 }
-.ul__lista-caracteristicas--blanco li {
+.div__container--items .div__text .ul__lista-caracteristicas--blanco li {
   margin: 10px;
 }
-
-.button__Add {
+.div__container--items .div__text .button__Add {
   position: absolute;
   width: 228px;
   height: 32px;
@@ -137,32 +142,28 @@
   border: none;
   color: white;
 }
-
-.img__fig--opaco {
+.div__container--items .div__container--imgs .img__fig--opaco {
   position: absolute;
   left: 50%;
   right: -43.21%;
   top: 40%;
   bottom: 64.09%;
 }
-
-.img__fig--trans {
+.div__container--items .div__container--imgs .img__fig--trans {
   position: absolute;
   left: 60%;
   right: 7.52%;
   top: 47%;
   bottom: 66.39%;
 }
-
-.img__petalos--blancos {
+.div__container--items .div__container--imgs .img__petalos--blancos {
   position: absolute;
   width: 362.65px;
   height: 180.21px;
   left: 486px;
   top: 256px;
 }
-
-.img__piano--caoba {
+.div__container--items .div__container--imgs .img__piano--caoba {
   position: absolute;
   width: 369.15px;
   height: 308.53px;
