@@ -1,7 +1,7 @@
 .div__secundario {
   background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.820101) 14.06%, rgba(0, 0, 0, 0.75) 37.19%, rgba(0, 0, 0, 0.75) 55.32%, rgba(255, 255, 255, 0.6454) 88.52%, #FFFFFF 97.7%);
   width: 960px;
-  height: 670px;
+  height: 761px;
   top: 926px;
 }
 .div__secundario .video__fondo_deg {
@@ -11,8 +11,8 @@
 
 .div__titulo {
   position: absolute;
-  width: 382px;
-  height: 62px;
+  width: 460px;
+  height: 72px;
   left: 245px;
   top: 105px;
   align-items: center;
@@ -30,9 +30,8 @@
 }
 
 .div__container--items {
-  width: 930px;
-  height: 670px;
-  padding: 30px 30px 30px 30px;
+  width: 896px;
+  height: 463px;
 }
 .div__container--items .div__text {
   width: 360px;
@@ -81,6 +80,9 @@
   left: 100px;
   top: 367px;
   display: flex;
+}
+.div__container--items .div__text .section__estrella .img__star {
+  margin: 0 4px;
 }
 .div__container--items .div__text .h3__desde--blanco {
   position: absolute;
